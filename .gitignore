@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Печать під замовлення</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <!-- Header -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">3D Print Lab</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#services" class="hover:text-blue-600">Послуги</a>
+        <a href="#examples" class="hover:text-blue-600">Приклади</a>
+        <a href="#pricing" class="hover:text-blue-600">Ціни</a>
+        <a href="#contact" class="hover:text-blue-600">Контакти</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-20 text-center">
+    <h2 class="text-4xl font-bold mb-4">3D-печать під замовлення</h2>
+    <p class="text-lg mb-6">Швидко, якісно, з сучасних матеріалів</p>
+    <a href="#contact" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">Замовити</a>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="max-w-6xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold text-center mb-10">Наші послуги</h3>
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="bg-white rounded-xl shadow p-6">
+        <h4 class="font-bold text-xl mb-2">3D-друк</h4>
+        <p>Друк з PLA, PETG, TPU, ASA. Деталі до 300×300×400 мм.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow p-6">
+        <h4 class="font-bold text-xl mb-2">3D-моделювання</h4>
+        <p>Створення моделей з нуля або по кресленням/фото.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow p-6">
+        <h4 class="font-bold text-xl mb-2">Прототипи та аксесуари</h4>
+        <p>Корпуси для електроніки, запчастини, сувеніри, декор.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Examples -->
+  <section id="examples" class="bg-gray-50 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-10">Приклади робіт</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white shadow rounded-xl overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Приклад 1" class="w-full">
+          <div class="p-4">Органайзери та тримачі</div>
+        </div>
+        <div class="bg-white shadow rounded-xl overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Приклад 2" class="w-full">
+          <div class="p-4">Корпуси для електроніки</div>
+        </div>
+        <div class="bg-white shadow rounded-xl overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Приклад 3" class="w-full">
+          <div class="p-4">Фігурки та сувеніри</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="max-w-4xl mx-auto px-6 py-16 text-center">
+    <h3 class="text-3xl font-bold mb-6">Ціни</h3>
+    <p class="mb-4">Базова вартість від <span class="font-semibold">5 грн/г</span>. Мінімальне замовлення — 200 грн.</p>
+    <p>Точна ціна залежить від матеріалу, розмірів та складності моделі.</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-blue-600 text-white py-16">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6">Зв'язатися з нами</h3>
+      <p class="mb-4">Телефон / Viber / Telegram: <span class="font-semibold">+380 (XX) XXX-XX-XX</span></p>
+      <p>Email: <span class="font-semibold">info@3dprintlab.com</span></p>
+      <a href="https://t.me/username" class="mt-6 inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">Написати в Telegram</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6 text-center">
+    © 2025 3D Print Lab. Всі права захищені.
+  </footer>
+</body>
+</html>
